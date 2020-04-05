@@ -28,4 +28,4 @@ html {
 #facts { direction: rtl; }
 #facts, #facts li { text-align: right; }
 #facts { font-size: 1em; ;}
-#facemask-img { max-width: 300px; }
+#facemask-img { max-width: 40%; }
