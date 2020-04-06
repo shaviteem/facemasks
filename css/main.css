@@ -30,7 +30,7 @@ html {
 #facts { direction: rtl; }
 #facts, #facts li { text-align: right; }
 #facts { font-size: 1em; ;}
-#facemask-img { max-width: 30%; }
+#facemask-img { max-width: 80%; }
 
 #header-1 { background-color: rgba(0,123,255,0.3) }
 #header-1 + .card-body > h1 { color: rgba(0,123,255); }
