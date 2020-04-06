@@ -21,11 +21,16 @@ html {
 }
 
 .border-top { border-top: 1px solid #e5e5e5; }
-.border-bottom { border-bottom: 1px solid #e5e5e5; }
+/* .border { border-bottom: 1px solid #e5e5e5; } */
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
-#store-title { background-color: rgba(0,123,255,0.3);}
+#store-title { 
+    background-color: rgba(0,123,255,0.3);
+    border-right: solid 2px #e5e5e5; 
+    border-left: solid 2px #e5e5e5; 
+    border-bottom: solid 2px #e5e5e5; 
+}
 
 #facts { direction: rtl; }
 #facts, #facts li { text-align: right; }
