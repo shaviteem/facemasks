@@ -30,12 +30,21 @@ html {
     border-right: solid 2px #e5e5e5; 
     border-left: solid 2px #e5e5e5; 
     border-bottom: solid 2px #e5e5e5; 
+
 }
 
 #facts { direction: rtl; }
 #facts, #facts li { text-align: right; }
 #facts { font-size: 1em; ;}
 #facemask-img { max-width: 80%; }
+@media (max-width: 575.98px) { /* phones */
+    #facts { display: block; margin: 0 auto; margin-bottom: 15px; }
+    /* .row { margin: 0 auto; } */
+    #facemask-img { max-width: 50%; }
+}
+@media (max-width: 991.98px) { /* tablets */
+    #facemask-img { max-width: 50%; }
+}
 
 #header-1 { background-color: rgba(0,123,255,0.3) }
 #header-1 + .card-body > h1 { color: rgba(0,123,255); }
