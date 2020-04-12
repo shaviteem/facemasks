@@ -18,6 +18,24 @@
     
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
+
+    <!-- Event snippet for הרשמה רגילה conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof (url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+          'send_to': 'AW-983797680/F-x_CKnrzFsQsJ-O1QM',
+          'event_callback': callback
+        });
+        return false;
+      }
+    </script>    
+
   </head>
 
   <body>
@@ -43,7 +61,7 @@
     <div class="container">
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-right">
   <div class="row">
-    <div class="col-lg-6 col-lg-push-6">
+    <div class="col-sm-6 col-md-push-6">
       <h4 class="bold"> מארז של מסכות פנים לאף ולפה</h4>
       <ul id="facts" class="mr-md-1 mt-3">
         <li>משלוח חינם אליך הביתה תוך 5 ימי עסקים</li>
@@ -56,7 +74,7 @@
       </ul>
     </div>
 
-    <div class="col-lg-6 col-lg-pull-6">
+    <div class="col-sm-6 col-md-pull-6">
       <img src="./img/Mask-WEBSITE.jpg" id="facemask-img" class="mr-md-5" alt="" />
     </div>
   </div>
@@ -81,7 +99,7 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title"><small class="text-muted"></small>&#8362; 340</h1>
             <a href="#">
-              <button type="button" class="btn btn-lg btn-block btn-primary">קליק אחד לרכישה באמזון</button>
+              <button type="button" class="btn btn-lg btn-block btn-primary button-to-amazon">קליק אחד לרכישה באמזון</button>
             </a>
           </div>
         </div>
@@ -93,7 +111,7 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title"><small class="text-muted"></small>&#8362; 380</h1>
             <a href="#">
-              <button type="button" class="btn btn-lg btn-block btn-success">קליק אחד לרכישה באמזון</button>
+              <button type="button" class="btn btn-lg btn-block btn-success button-to-amazon">קליק אחד לרכישה באמזון</button>
             </a>
           </div>
         </div>
@@ -105,7 +123,7 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title"><small class="text-muted"></small>&#8362; 480</h1>
             <a href="#">
-              <button type="button" class="btn btn-lg btn-block btn-dark">קליק אחד לרכישה באמזון</button>
+              <button type="button" class="btn btn-lg btn-block btn-dark button-to-amazon">קליק אחד לרכישה באמזון</button>
             </a>
           </div>
         </div>

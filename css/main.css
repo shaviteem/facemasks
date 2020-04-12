@@ -43,7 +43,7 @@ html {
     #facemask-img { max-width: 50%; }
 }
 @media (max-width: 991.98px) { /* tablets */
-    #facemask-img { max-width: 50%; }
+    #facemask-img { max-width: 80%; }
 }
 
 #header-1 { background-color: rgba(0,123,255,0.3) }
