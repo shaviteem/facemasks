@@ -54,3 +54,21 @@ html {
 
 #header-3 { background-color: rgba(52,58,61,0.3); }
 #header-3 + .card-body > h1 { color: rgba(52,58,61); }
+
+
+/*
+BUY PAGE
+*/
+table { 
+  direction: rtl; 
+text-align: right; display: block;  }
+td { padding-left: 3rem; }
+tr.last { 
+  border-top: solid 2px black; 
+}
+
+.paypal-header { display: block; text-align: right; ;}
+.paypal { display: block; }
+#paypal-img { 
+  display: block; }
+h1.text-align-right { text-align: right; }
